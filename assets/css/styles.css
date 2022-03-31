@@ -1,0 +1,206 @@
+.btn-primary {
+  padding: 12px 60px;
+  border-radius: 30px;
+  box-shadow: 0 2px 9px 0 #070708;
+  background-color: #00f3a2;
+  font-weight: bold;
+  color: #22262d;
+  font-family: 'Archivo', sans-serif;
+}
+
+.navbar {
+  padding: 40px 20px;
+  max-width: 1080px;
+  margin: auto;
+}
+
+@media (max-width: 575px) {
+  .navbar {
+    padding: 20px 10px;
+  }
+}
+
+.navbar-logo {
+  height: 36px;
+}
+
+@media (max-width: 575px) {
+  .navbar-logo {
+    margin: 20px 10px;
+  }
+}
+
+body {
+  background-color: #1a2334;
+  word-wrap: break-word;
+  font-family: 'Fira Sans';
+}
+
+.page-title-container {
+  padding: 60px 30px 30px 30px;
+}
+
+@media (max-width: 575px) {
+  .page-title {
+    font-size: 2em !important;
+  }
+}
+
+.page-title {
+  font-size: 3em;
+}
+
+.track-card {
+  max-width: 400px;
+  background-color: inherit;
+  box-shadow: none;
+  border: none;
+}
+
+.track-card {
+  margin: 40px;
+  background-color: inherit;
+  box-shadow: none;
+  border: none;
+}
+
+.track-card .card-title {
+  margin: 20px 0px 20px 0px;
+  font-size: 1.4em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #1fefa8;
+  font-weight: bold;
+  font-family: 'Archivo',Helvetica,Arial,Lucida,sans-serif;
+}
+
+.main-container {
+  max-width: 1080px;
+  margin: auto;
+  padding-bottom: 60px;
+}
+
+.tracks-container {
+  max-width: 800px;
+}
+
+.track-card-image {
+  object-fit: contain;
+  height: 120px;
+  width: 200px !important;
+  margin: auto;
+}
+
+.footer-container {
+  display: flex;
+  padding: 60px 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1080px;
+  margin: auto;
+}
+
+.footer-logo {
+  height: 40px;
+  margin-left: 30px;
+}
+
+.footer-nav {
+  border: none;
+  justify-content: center;
+  display: flex;
+}
+
+.footer-nav .nav-link {
+  padding: 12px;
+  color: rgba(255,255,255,0.6);
+  border: none;
+}
+
+.footer-nav .nav-link:hover {
+  color: rgba(255,255,255,1);
+}
+
+.footer-icon {
+  font-size: 2em;
+  padding-bottom: 6px;
+  color: #00f3a2;
+}
+
+.footer-icon:hover {
+  color: #fff;
+}
+
+.track-card button {
+  margin-top: 20px;
+}
+
+.bigger-title {
+  font-size: 2em !important;
+}
+
+.biggest-title {
+  font-size: 3em !important;
+}
+
+.page-title-image {
+  margin: 10px 0px;
+}
+
+.nft-prize {
+  margin: 30px auto 60px auto;
+  display: block;
+  box-shadow: 0 71px 94px 0 rgba(15, 19, 28, 0.75);
+}
+
+@media (max-width: 767px) {
+  .footer-nav {
+    width: 100%;
+    margin: auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .footer-nav .nav-item {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .footer-logo {
+    display: block;
+    margin: 0px auto 30px auto;
+  }
+}
+
+.gradient-background {
+  background-image: linear-gradient(152deg,rgba(43,135,218,0) 64%,#29c4a9 100%)!important;
+}
+
+#globe-image {
+  position: absolute;
+  right: 0;
+  bottom: 10%;
+  max-width: 600px;
+  height: auto;
+  object-fit: contain;
+  max-height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
+@media (max-width: 991px) {
+  #globe-image {
+    position: static;
+    right: 0;
+    bottom: 10%;
+    max-width: 600px;
+    height: auto;
+    object-fit: contain;
+    max-height: 100%;
+    width: 100%;
+  }
+}
+
